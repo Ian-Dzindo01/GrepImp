@@ -4,7 +4,7 @@ int main(int argc, char* argv[])
 {
 	if (argc != 3)
 	{
-		printf("Usage: ./%s <pattern> <filetosearch>", argv[0]);
+		printf("Usage: ./main.exe <pattern> <filetosearch>", argv[0]);
 		return 1;
 	}
 
@@ -21,13 +21,25 @@ int main(int argc, char* argv[])
 		return 1;
 	}
 
-	if (strcmp(pattern, "") == 0 ) {
-		char line[256];
+	char line[256];
+	int lineNumber = 0;
+
+	if (strcmp(pattern, "") == 0) {
 		while (fgets(line, sizeof(line), file)) {
 			printf("%s", line);
 		}
 	}
 
+	else {
+		while (fgets(line, sizeof(line), file)) {
+			lineNumber++;
+
+			if (strstr(line, pattern) != NULL) {
+				printf("Line %d: %s", lineNumber, line);
+			}
+		}
+	}
+		
 	fclose(file);
 	return 0;
 }
