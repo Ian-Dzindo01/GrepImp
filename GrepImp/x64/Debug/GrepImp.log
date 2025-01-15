@@ -1,2 +1,7 @@
 ﻿  main.c
+C:\Users\iandz\Desktop\Projects\GrepImp\main.c(14,8): warning C4013: 'strstr' undefined; assuming extern returning int
+C:\Users\iandz\Desktop\Projects\GrepImp\main.c(42,6): warning C4013: 'strcmp' undefined; assuming extern returning int
+C:\Users\iandz\Desktop\Projects\GrepImp\main.c(52,30): warning C4047: '!=': 'int' differs in levels of indirection from 'void *'
+C:\Users\iandz\Desktop\Projects\GrepImp\main.c(58,13): warning C4047: 'function': 'const char *const ' differs in levels of indirection from 'int'
+C:\Users\iandz\Desktop\Projects\GrepImp\main.c(58,13): warning C4024: 'printf': different types for formal and actual parameter 1
   GrepImp.vcxproj -> C:\Users\iandz\Desktop\Projects\GrepImp\x64\Debug\GrepImp.exe

@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{70CACA33-6B67-4BDE-ABF7-A218D3A60680}|GrepImp.vcxproj|C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{70CACA33-6B67-4BDE-ABF7-A218D3A60680}|GrepImp.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24096A07-1FE7-4D74-B4C2-5F1BA1F9818B}|Solution Items{24096A07-1FE7-4D74-B4C2-5F1BA1F9818B}|C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\Notes.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{24096A07-1FE7-4D74-B4C2-5F1BA1F9818B}|Solution Items{24096A07-1FE7-4D74-B4C2-5F1BA1F9818B}|solutionrelative:Notes.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -28,9 +32,22 @@
               "RelativeDocumentMoniker": "main.c",
               "ToolTip": "C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\main.c",
               "RelativeToolTip": "main.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAwB8AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-01-12T10:02:39.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Notes.txt",
+              "DocumentMoniker": "C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\Notes.txt",
+              "RelativeDocumentMoniker": "Notes.txt",
+              "ToolTip": "C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\Notes.txt",
+              "RelativeToolTip": "Notes.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-01-12T17:10:11.475Z",
               "EditorCaption": ""
             }
           ]
