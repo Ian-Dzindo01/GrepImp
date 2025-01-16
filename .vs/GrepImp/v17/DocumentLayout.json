@@ -7,6 +7,22 @@
       "RelativeMoniker": "D:0:0:{70CACA33-6B67-4BDE-ABF7-A218D3A60680}|GrepImp.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{70CACA33-6B67-4BDE-ABF7-A218D3A60680}|GrepImp.vcxproj|C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\grep.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70CACA33-6B67-4BDE-ABF7-A218D3A60680}|GrepImp.vcxproj|solutionrelative:grep.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CACA33-6B67-4BDE-ABF7-A218D3A60680}|GrepImp.vcxproj|C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\grep.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70CACA33-6B67-4BDE-ABF7-A218D3A60680}|GrepImp.vcxproj|solutionrelative:grep.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CACA33-6B67-4BDE-ABF7-A218D3A60680}|GrepImp.vcxproj|C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\utils.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70CACA33-6B67-4BDE-ABF7-A218D3A60680}|GrepImp.vcxproj|solutionrelative:utils.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CACA33-6B67-4BDE-ABF7-A218D3A60680}|GrepImp.vcxproj|C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70CACA33-6B67-4BDE-ABF7-A218D3A60680}|GrepImp.vcxproj|solutionrelative:utils.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{24096A07-1FE7-4D74-B4C2-5F1BA1F9818B}|Solution Items{24096A07-1FE7-4D74-B4C2-5F1BA1F9818B}|C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\Notes.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{24096A07-1FE7-4D74-B4C2-5F1BA1F9818B}|Solution Items{24096A07-1FE7-4D74-B4C2-5F1BA1F9818B}|solutionrelative:Notes.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
@@ -18,11 +34,64 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "utils.h",
+              "DocumentMoniker": "C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\utils.h",
+              "RelativeDocumentMoniker": "utils.h",
+              "ToolTip": "C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\utils.h",
+              "RelativeToolTip": "utils.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-16T15:23:53.931Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "utils.c",
+              "DocumentMoniker": "C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\utils.c",
+              "RelativeDocumentMoniker": "utils.c",
+              "ToolTip": "C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\utils.c",
+              "RelativeToolTip": "utils.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-01-16T15:24:15.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "grep.h",
+              "DocumentMoniker": "C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\grep.h",
+              "RelativeDocumentMoniker": "grep.h",
+              "ToolTip": "C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\grep.h",
+              "RelativeToolTip": "grep.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-01-16T15:22:57.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "grep.c",
+              "DocumentMoniker": "C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\grep.c",
+              "RelativeDocumentMoniker": "grep.c",
+              "ToolTip": "C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\grep.c",
+              "RelativeToolTip": "grep.c",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-01-16T15:22:36.129Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -32,14 +101,14 @@
               "RelativeDocumentMoniker": "main.c",
               "ToolTip": "C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\main.c",
               "RelativeToolTip": "main.c",
-              "ViewState": "AQIAABQAAAAAAAAAAAAAwB8AAAAjAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-01-12T10:02:39.698Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Notes.txt",
               "DocumentMoniker": "C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\Notes.txt",
               "RelativeDocumentMoniker": "Notes.txt",
@@ -47,8 +116,7 @@
               "RelativeToolTip": "Notes.txt",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-01-12T17:10:11.475Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-12T17:10:11.475Z"
             }
           ]
         }
