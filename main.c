@@ -4,9 +4,9 @@
 
 int main(int argc, char* argv[]) {
     int case_insensitive = 0;
-    int inverted_match = 0;
+    int inverted_match = 1;
     int line_numbers = 0;
-    int count_lines = 1;
+    int count_lines = 0;
 
     const char* pattern = "name";
     const char* filename = "test/test.txt";

@@ -29,9 +29,9 @@ void grep(const char* filename, const char* pattern, int case_insensitive, int i
             }
         }
 
-        /*if (inverted_match) {
+        if (inverted_match) {
             match = !match;
-        }*/
+        }
 
         if (match) {
             countLines++;
