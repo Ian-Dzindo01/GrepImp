@@ -4,12 +4,13 @@
 
 int main(int argc, char* argv[]) {
     int case_insensitive = 0;
-    int inverted_match = 1;
+    int inverted_match = 0;
     int line_numbers = 0;
     int count_lines = 0;
+    int match_words = 1;
 
     const char* pattern = "name";
-    const char* filename = "test/test.txt";
+    const char* filename = "test/test2.txt";
 
     for (int i = 1; i < argc; i++) {
         if (argv[i][0] == '-') {
@@ -25,7 +26,11 @@ int main(int argc, char* argv[]) {
             if (strstr(argv[i], "c")) {
                 count_lines = 1;
             }
+            if (strstr(argv[i], "w")) {
+                match_words = 1;
+            }
         }
+
         else if (pattern == NULL) {
             pattern = argv[i];
         }
@@ -39,12 +44,13 @@ int main(int argc, char* argv[]) {
     printf("  Inverted Match (-v): %d\n", inverted_match);
     printf("  Line Numbers (-n): %d\n", line_numbers);
     printf("  Count Lines (-c):  %d\n", count_lines);
+    printf("  Match word (-w):   %d\n", match_words);
     printf("\n");
 
     printf("Pattern: %s\n", pattern ? pattern : "(null)");
     printf("Filename: %s\n", filename ? filename : "(null)");
 
-    grep(filename, pattern, case_insensitive, inverted_match, line_numbers, count_lines);
+    grep(filename, pattern, case_insensitive, inverted_match, line_numbers, count_lines, match_words);
 
     return 0;
 }
