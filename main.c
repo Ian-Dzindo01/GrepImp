@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "grep.h"
+#include "utils.h"
 
 int main(int argc, char* argv[]) {
     int case_insensitive = 0;
@@ -10,7 +11,7 @@ int main(int argc, char* argv[]) {
     int match_words = 1;
 
     const char* pattern = "name";
-    const char* filename = "test/test2.txt";
+    const char* filename = "test/test.txt";
 
     for (int i = 1; i < argc; i++) {
         if (argv[i][0] == '-') {
@@ -50,7 +51,8 @@ int main(int argc, char* argv[]) {
     printf("Pattern: %s\n", pattern ? pattern : "(null)");
     printf("Filename: %s\n", filename ? filename : "(null)");
 
-    grep(filename, pattern, case_insensitive, inverted_match, line_numbers, count_lines, match_words);
+    //grep(filename, pattern, case_insensitive, inverted_match, line_numbers, count_lines, match_words);
+    list_directory("test");
 
     return 0;
 }

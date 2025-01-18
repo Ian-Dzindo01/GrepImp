@@ -21,10 +21,12 @@
   <ItemGroup>
     <ClCompile Include="grep.c" />
     <ClCompile Include="main.c" />
+    <ClCompile Include="search.c" />
     <ClCompile Include="utils.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="grep.h" />
+    <ClInclude Include="search.h" />
     <ClInclude Include="utils.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
