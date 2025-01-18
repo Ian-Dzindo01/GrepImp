@@ -1,5 +1,2 @@
-﻿  main.c
-  search.c
-C:\Users\iandz\Desktop\Projects\GrepImp\main.c(55,5): warning C4013: 'list_directory' undefined; assuming extern returning int
-  Generating Code...
+﻿  search.c
   GrepImp.vcxproj -> C:\Users\iandz\Desktop\Projects\GrepImp\x64\Debug\GrepImp.exe

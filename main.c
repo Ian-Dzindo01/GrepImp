@@ -52,7 +52,7 @@ int main(int argc, char* argv[]) {
     printf("Filename: %s\n", filename ? filename : "(null)");
 
     //grep(filename, pattern, case_insensitive, inverted_match, line_numbers, count_lines, match_words);
-    list_directory("test");
+    list_directory(".");
 
     return 0;
 }

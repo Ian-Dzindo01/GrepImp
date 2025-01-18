@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{70CACA33-6B67-4BDE-ABF7-A218D3A60680}|GrepImp.vcxproj|C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{70CACA33-6B67-4BDE-ABF7-A218D3A60680}|GrepImp.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{70CACA33-6B67-4BDE-ABF7-A218D3A60680}|GrepImp.vcxproj|C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\search.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{70CACA33-6B67-4BDE-ABF7-A218D3A60680}|GrepImp.vcxproj|solutionrelative:search.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70CACA33-6B67-4BDE-ABF7-A218D3A60680}|GrepImp.vcxproj|C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{70CACA33-6B67-4BDE-ABF7-A218D3A60680}|GrepImp.vcxproj|solutionrelative:main.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70CACA33-6B67-4BDE-ABF7-A218D3A60680}|GrepImp.vcxproj|C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\search.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -30,17 +30,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "main.c",
               "DocumentMoniker": "C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\main.c",
               "RelativeDocumentMoniker": "main.c",
               "ToolTip": "C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\main.c",
               "RelativeToolTip": "main.c",
-              "ViewState": "AQIAACQAAAAAAAAAAAAAADYAAAAbAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAADYAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-01-12T10:02:39.698Z",
               "IsPinned": true,
@@ -52,13 +52,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "search.c",
               "DocumentMoniker": "C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\search.c",
               "RelativeDocumentMoniker": "search.c",
               "ToolTip": "C:\\Users\\iandz\\Desktop\\Projects\\GrepImp\\search.c",
               "RelativeToolTip": "search.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAADwvxgAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2025-01-17T17:42:11.903Z",
               "EditorCaption": ""
