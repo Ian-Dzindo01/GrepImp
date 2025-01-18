@@ -76,5 +76,6 @@ void grep(const char* filename, const char* pattern, int case_insensitive, int i
         printf("%d", lineCount);
     }
 
+    printf("\n");
     fclose(file);
 }
