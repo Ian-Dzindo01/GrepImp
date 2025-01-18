@@ -1,2 +1,3 @@
-﻿  grep.c
+﻿  main.c
+C:\Users\iandz\Desktop\Projects\GrepImp\main.c(65,9): warning C4013: 'search' undefined; assuming extern returning int
   GrepImp.vcxproj -> C:\Users\iandz\Desktop\Projects\GrepImp\x64\Debug\GrepImp.exe

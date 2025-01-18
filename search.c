@@ -5,7 +5,8 @@
 #include <string.h>
 
 void search(const char* dir_path, const char* pattern, int case_insensitive,
-    int inverted_match, int line_numbers, int count_lines, int match_words) {
+            int inverted_match, int line_numbers, int count_lines, int match_words,
+            int filenames_only) {
 
     DIR* dir = opendir(dir_path);
     if (dir == NULL) {
@@ -24,11 +25,11 @@ void search(const char* dir_path, const char* pattern, int case_insensitive,
         if (stat(full_path, &statbuf) == 0 && S_ISDIR(statbuf.st_mode)) {
             // skip current directory (.) and parent directory (..)
             if (strcmp(entry->d_name, ".") != 0 && strcmp(entry->d_name, "..") != 0) {
-                search(full_path, pattern, case_insensitive, inverted_match, line_numbers, count_lines, match_words);
+                search(full_path, pattern, case_insensitive, inverted_match, line_numbers, count_lines, match_words, filenames_only);
             }
         }
         else {
-            grep(full_path, pattern, case_insensitive, inverted_match, line_numbers, count_lines, match_words);
+            grep(full_path, pattern, case_insensitive, inverted_match, line_numbers, count_lines, match_words, filenames_only);
         }
     }
 

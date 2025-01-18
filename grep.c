@@ -3,7 +3,8 @@
 #include "grep.h"
 #include "utils.h" 
 
-void grep(const char* filename, const char* pattern, int case_insensitive, int inverted_match, int line_numbers, int count_lines, int match_words) {
+void grep(const char* filename, const char* pattern, int case_insensitive, int inverted_match, 
+          int line_numbers, int count_lines, int match_words, int filenames_only) {
     FILE* file = fopen(filename, "r");
     if (file == NULL) {
         perror("Error opening file");
@@ -60,6 +61,10 @@ void grep(const char* filename, const char* pattern, int case_insensitive, int i
         }
 
         if (match) {
+            if (filenames_only) {
+                printf("Pattern found in %s", filename);
+                break;
+            }
             lineCount++;
             if (!count_lines) {
                 if (line_numbers) {
@@ -72,7 +77,7 @@ void grep(const char* filename, const char* pattern, int case_insensitive, int i
         }
     }
 
-    if (count_lines) {
+    if (count_lines && !filenames_only) {
         printf("%d", lineCount);
     }
 
