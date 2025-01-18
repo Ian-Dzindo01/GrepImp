@@ -4,7 +4,7 @@
 #include "utils.h" 
 
 void grep(const char* filename, const char* pattern, int case_insensitive, int inverted_match, 
-          int line_numbers, int count_lines, int match_words, int filenames_only) {
+          int line_numbers, int count_lines, int match_words, int filenames_only, int skip_binary) {
     FILE* file = fopen(filename, "r");
     if (file == NULL) {
         perror("Error opening file");
@@ -14,6 +14,7 @@ void grep(const char* filename, const char* pattern, int case_insensitive, int i
     char line[256];
     int lineNumber = 0;
     int lineCount = 0;
+    int fileMatch = 0;
 
     while (fgets(line, sizeof(line), file)) {
         lineNumber++;
@@ -30,11 +31,13 @@ void grep(const char* filename, const char* pattern, int case_insensitive, int i
                 if (case_insensitive) {
                     if (_stricmp(word, pattern) == 0) {
                         match = 1;
+                        fileMatch = 1;
                         break;
                     }
                 }
                 else {
                     if (strcmp(word, pattern) == 0) {
+                        fileMatch = 1;
                         match = 1;
                         break;
                     }
@@ -47,11 +50,13 @@ void grep(const char* filename, const char* pattern, int case_insensitive, int i
             if (case_insensitive) {
                 if (strcasestr(line, pattern) != NULL) {
                     match = 1;
+                    fileMatch = 1;
                 }
             }
             else {
                 if (strstr(line, pattern) != NULL) {
                     match = 1;
+                    fileMatch = 1;
                 }
             }
         }
@@ -79,6 +84,11 @@ void grep(const char* filename, const char* pattern, int case_insensitive, int i
 
     if (count_lines && !filenames_only) {
         printf("%d", lineCount);
+    }
+
+    if (!fileMatch)
+    {
+        printf("No match was found\n");
     }
 
     printf("\n");

@@ -8,9 +8,10 @@ int main(int argc, char* argv[]) {
     int inverted_match = 0;
     int line_numbers = 0;
     int count_lines = 0;
-    int match_words = 0;
+    int match_words = 0;    
     int recursive_search = 1;
-    int filenames_only = 1;
+    int filenames_only = 0;
+    int skip_binary = 1;
 
     const char* pattern = "name";
     const char* filename = "test";
@@ -38,6 +39,9 @@ int main(int argc, char* argv[]) {
             if (strstr(argv[i], "l")) {
                 filenames_only = 1;
             }
+            if (strstr(argv[i], "I")) {
+                skip_binary = 1;
+            }
         }
 
         else if (pattern == NULL) {
@@ -56,16 +60,18 @@ int main(int argc, char* argv[]) {
     printf("  Match Word          (-w): %d\n", match_words);
     printf("  Recursive Search    (-r): %d\n", recursive_search);
     printf("  Filenames Only          (-l): %d\n", filenames_only);
+    printf("  Skip Binary Files    (-I): %d\n", skip_binary);
     printf("\n");
 
     printf("Pattern: %s\n", pattern ? pattern : "(null)");
     printf("Filename: %s\n", filename ? filename : "(null)");
 
+
     if (recursive_search) {
-        search(filename, pattern, case_insensitive, inverted_match, line_numbers, count_lines, match_words, filenames_only);
+        search(filename, pattern, case_insensitive, inverted_match, line_numbers, count_lines, match_words, filenames_only, skip_binary);
     }
     else {
-        grep(filename, pattern, case_insensitive, inverted_match, line_numbers, count_lines, match_words, filenames_only);
+        grep(filename, pattern, case_insensitive, inverted_match, line_numbers, count_lines, match_words, filenames_only, skip_binary);
     }
 
     return 0;
